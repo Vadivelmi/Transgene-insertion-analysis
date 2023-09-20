@@ -1,0 +1,26 @@
+Megahit installation
+>> conda create --name megahit_env
+>> conda activate megahit_env
+>> conda install -c bioconda megahit
+>>megahit -1 pe_1.fq -2 pe_2.fq -o out
+>>blastn -query transgene.fa -subject final.contigs.fa -outfmt 6 -word_size 11 -dust no
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
